@@ -1,5 +1,6 @@
 # Titanic competition repository
 
+![Cover](/references/images/Titanic_1.png)  
 This repository is focused on analyzing the famous Titanic dataset 🛳️, providing insights into survival patterns 🧬 based on passenger data such as age, gender, and class. It includes Jupyter notebooks 📒 for data exploration, feature engineering, and building a machine learning classification model 🤖 to predict survival likelihood based on these variables.
 
 ## The Challenge
@@ -22,6 +23,3 @@ It is recommended to install requirements into a dedicated virtual environment.
 ## Sample results
 This project is dedicated to show differences between ML classification models, and to showcase the general approach to solve classification task using Scikit-learn. For a selected model, a training curves as well as the Confusion Matrix and ROC curve are shown.
 ![ConfusionMatrix](/reports/figures/RandomForestsCM.png)
-Fig. 1. Confusion Matrix for the Random Forest model  
-![Training Curve](/reports/figures/RandomForestsTC.png)
-Fig. 2. Training Curve for the Random Forest model  
