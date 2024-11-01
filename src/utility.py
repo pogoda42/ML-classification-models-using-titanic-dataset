@@ -18,7 +18,7 @@ def train_timer(model: object, X: pd.DataFrame, Y: pd.Series) -> float:
     print(f'Model training time: {train_time:.2f} ms')
     return train_time
 
-def fit_eval(model, X, Y):
+def evaluate_model(model, X, Y):
     """Fits a model and evaluates its performance metrics.
     
     Returns predictions, prediction probabilities, and metrics series."""
